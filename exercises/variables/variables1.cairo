@@ -2,9 +2,7 @@
 // Make me compile!
 // Execute `starklings hint variables1` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
-
 fn main() {
-    x = 5 ;
+    let x: u8 = 5_u8;
     println!(" x is {}", x)
 }
